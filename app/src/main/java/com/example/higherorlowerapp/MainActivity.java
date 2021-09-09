@@ -17,6 +17,7 @@ public class MainActivity extends AppCompatActivity {
         randomnumber = rand.nextInt(20)+ 1;
     }
 
+
 public void guess(View view)
 {
    String message;
