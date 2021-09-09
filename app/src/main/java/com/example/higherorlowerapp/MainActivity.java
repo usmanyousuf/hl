@@ -13,6 +13,8 @@ import java.util.Random;
 public class MainActivity extends AppCompatActivity {
     int randomnumber;
     public void generateRandomnumber(){
+
+
         Random rand = new Random();
         randomnumber = rand.nextInt(20)+ 1;
     }
